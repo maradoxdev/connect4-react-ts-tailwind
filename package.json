@@ -10,14 +10,17 @@
     "lint": "npx eslint --ext .js,.jsx,.tsx,.ts ./",
     "lint:fix": "npx eslint --ext .js,.jsx,.tsx,.ts ./ --fix",
     "check-types": "tsc --noEmit --skipLibCheck",
-    "test": "jest"
+    "test": "npx cypress open"
   },
   "dependencies": {
+    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
+    "cypress": "^13.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router": "^6.11.2",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "webpack": "^4.47.0"
   },
   "devDependencies": {
     "@parcel/transformer-svg-react": "^2.8.3",
