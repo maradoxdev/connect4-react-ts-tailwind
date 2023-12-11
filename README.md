@@ -13,6 +13,12 @@ Connect four of your checkers in a row while preventing your opponent from doing
 - [x] Limit time on each turn
 - [x] Win, lose, stalemate game conditions
 
+### Todo
+
+- [x] Add more specs to Cypress Testing
+- [x] Add Unit testing
+- [x] Improve the folder architecture for to get bigger (hooks, utils, constants...)
+
 ### Technologies
 
 - TypeScript
@@ -20,6 +26,7 @@ Connect four of your checkers in a row while preventing your opponent from doing
 - React router
 - TailwindCSS
 - Parcel
+- Cypress
 
 ### Screenshots
 
