@@ -1,0 +1,5 @@
+export * from "./Home"
+export * from "./NotFound"
+export * from "./PlayVsAI"
+export * from "./PlayVsPlayer"
+export * from "./Rules"
